@@ -1,0 +1,2 @@
+# JLAdvertisingScrollView
+轻量级的广告轮播滚动视图
