@@ -15,6 +15,8 @@
 		221E1B961E7A623600B41629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221E1B941E7A623600B41629 /* LaunchScreen.storyboard */; };
 		221E1BA11E7A623600B41629 /* JLAdvertisingScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E1BA01E7A623600B41629 /* JLAdvertisingScrollViewTests.m */; };
 		221E1BAC1E7A623600B41629 /* JLAdvertisingScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E1BAB1E7A623600B41629 /* JLAdvertisingScrollViewUITests.m */; };
+		221E1BBC1E7A628800B41629 /* JLAdvertisingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E1BBB1E7A628800B41629 /* JLAdvertisingScrollView.m */; };
+		9E84A0567F6766025F094D06 /* Pods_JLAdvertisingScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D84860D55B70761A5F78977 /* Pods_JLAdvertisingScrollView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		221E1BA71E7A623600B41629 /* JLAdvertisingScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLAdvertisingScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221E1BAB1E7A623600B41629 /* JLAdvertisingScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLAdvertisingScrollViewUITests.m; sourceTree = "<group>"; };
 		221E1BAD1E7A623600B41629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221E1BBA1E7A628800B41629 /* JLAdvertisingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAdvertisingScrollView.h; sourceTree = "<group>"; };
+		221E1BBB1E7A628800B41629 /* JLAdvertisingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAdvertisingScrollView.m; sourceTree = "<group>"; };
+		68ACDF8C4E99E9467162EEE1 /* Pods-JLAdvertisingScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLAdvertisingScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLAdvertisingScrollView/Pods-JLAdvertisingScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		72A635FA342B4EEE7BFF32C6 /* Pods-JLAdvertisingScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLAdvertisingScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLAdvertisingScrollView/Pods-JLAdvertisingScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		8D84860D55B70761A5F78977 /* Pods_JLAdvertisingScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLAdvertisingScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E84A0567F6766025F094D06 /* Pods_JLAdvertisingScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				221E1B9F1E7A623600B41629 /* JLAdvertisingScrollViewTests */,
 				221E1BAA1E7A623600B41629 /* JLAdvertisingScrollViewUITests */,
 				221E1B841E7A623600B41629 /* Products */,
+				A9A784E0F0EA51B743692F53 /* Pods */,
+				E9334CD938087A0498771B32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +111,7 @@
 		221E1B851E7A623600B41629 /* JLAdvertisingScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				221E1BB91E7A625D00B41629 /* Source */,
 				221E1B891E7A623600B41629 /* AppDelegate.h */,
 				221E1B8A1E7A623600B41629 /* AppDelegate.m */,
 				221E1B8C1E7A623600B41629 /* ViewController.h */,
@@ -140,6 +151,32 @@
 			path = JLAdvertisingScrollViewUITests;
 			sourceTree = "<group>";
 		};
+		221E1BB91E7A625D00B41629 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				221E1BBA1E7A628800B41629 /* JLAdvertisingScrollView.h */,
+				221E1BBB1E7A628800B41629 /* JLAdvertisingScrollView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A9A784E0F0EA51B743692F53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72A635FA342B4EEE7BFF32C6 /* Pods-JLAdvertisingScrollView.debug.xcconfig */,
+				68ACDF8C4E99E9467162EEE1 /* Pods-JLAdvertisingScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9334CD938087A0498771B32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D84860D55B70761A5F78977 /* Pods_JLAdvertisingScrollView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 221E1BB01E7A623600B41629 /* Build configuration list for PBXNativeTarget "JLAdvertisingScrollView" */;
 			buildPhases = (
+				370CC366DA4F08AD4DC9A52C /* [CP] Check Pods Manifest.lock */,
 				221E1B7F1E7A623600B41629 /* Sources */,
 				221E1B801E7A623600B41629 /* Frameworks */,
 				221E1B811E7A623600B41629 /* Resources */,
+				90DD5A9CD915F5C5DBEEF528 /* [CP] Embed Pods Frameworks */,
+				19454896E37F322683167743 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,11 +308,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19454896E37F322683167743 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLAdvertisingScrollView/Pods-JLAdvertisingScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		370CC366DA4F08AD4DC9A52C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90DD5A9CD915F5C5DBEEF528 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLAdvertisingScrollView/Pods-JLAdvertisingScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		221E1B7F1E7A623600B41629 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221E1BBC1E7A628800B41629 /* JLAdvertisingScrollView.m in Sources */,
 				221E1B8E1E7A623600B41629 /* ViewController.m in Sources */,
 				221E1B8B1E7A623600B41629 /* AppDelegate.m in Sources */,
 				221E1B881E7A623600B41629 /* main.m in Sources */,
@@ -422,6 +511,7 @@
 		};
 		221E1BB11E7A623600B41629 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A635FA342B4EEE7BFF32C6 /* Pods-JLAdvertisingScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JLAdvertisingScrollView/Info.plist;
@@ -433,6 +523,7 @@
 		};
 		221E1BB21E7A623600B41629 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68ACDF8C4E99E9467162EEE1 /* Pods-JLAdvertisingScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JLAdvertisingScrollView/Info.plist;
@@ -507,6 +598,7 @@
 				221E1BB21E7A623600B41629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		221E1BB31E7A623600B41629 /* Build configuration list for PBXNativeTarget "JLAdvertisingScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +607,7 @@
 				221E1BB51E7A623600B41629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		221E1BB61E7A623600B41629 /* Build configuration list for PBXNativeTarget "JLAdvertisingScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +616,7 @@
 				221E1BB81E7A623600B41629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
