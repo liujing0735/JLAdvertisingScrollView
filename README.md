@@ -30,10 +30,10 @@ step2: 导入.h文件
 @optional
 
 /**
- 点击事件带来
+ 点击事件代理
 
  @param scrollView JLAdvertisingScrollView
- @param index 点击的图片序号
+ @param index 被点击的图片的序号
  */
 - (void)advertisingScrollView:(JLAdvertisingScrollView *)scrollView  clickEventAtIndex:(NSInteger)index;
 @end
