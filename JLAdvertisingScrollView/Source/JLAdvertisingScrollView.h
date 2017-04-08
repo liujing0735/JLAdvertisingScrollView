@@ -13,6 +13,13 @@
 @protocol JLAdvertisingScrollViewDelegate <NSObject>
 
 @optional
+
+/**
+ 点击事件代理
+
+ @param scrollView JLAdvertisingScrollView
+ @param index 点击的图片的序号
+ */
 - (void)advertisingScrollView:(JLAdvertisingScrollView *)scrollView  clickEventAtIndex:(NSInteger)index;
 @end
 
@@ -49,4 +56,9 @@
  广告滚动视图自动滚动的时间间隔
  */
 @property (assign, nonatomic) NSTimeInterval autoLoopInterval;
+
+/**
+ UIPageControl是否显示，默认为YES
+ */
+@property (assign, nonatomic) BOOL showPageControl;
 @end

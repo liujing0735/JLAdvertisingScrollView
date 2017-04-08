@@ -265,6 +265,10 @@
     }
 }
 
+- (void)setShowPageControl:(BOOL)showPageControl {
+    [_pageControl setHidden:!_showPageControl];
+}
+
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     NSUInteger page = _scrollView.contentOffset.x/self.frame.size.width;
