@@ -7,8 +7,22 @@
 //
 
 #import "NSArray+Extension.h"
+#import "NSString+Extension.h"
 
 @implementation NSArray (Extension)
+
+- (NSInteger)intAtIndex:(NSUInteger)index {
+    if ([self count] > index) {
+        id value = [self objectAtIndex:index];
+        if ([value isKindOfClass:[NSString class]]) {
+            return [(NSString *)value integerValue];
+        }
+        if ([value isKindOfClass:[NSNumber class]]) {
+            return [(NSNumber *)value integerValue];
+        }
+    }
+    return 0;
+}
 
 - (double)doubleAtIndex:(NSUInteger)index {
     if ([self count] > index) {
@@ -31,6 +45,16 @@
         }
     }
     return @{};
+}
+
+- (NSArray *)arrayAtIndex:(NSUInteger)index {
+    if ([self count] > index) {
+        id value = [self objectAtIndex:index];
+        if ([value isKindOfClass:[NSArray class]]) {
+            return (NSArray *)value;
+        }
+    }
+    return @[];
 }
 
 - (NSString *)stringAtIndex:(NSUInteger)index {
@@ -61,5 +85,35 @@
         }
     }
     return @"0元";
+}
+
+- (NSString *)dateAtIndex:(NSUInteger)index {
+    if ([self count] > index) {
+        id value = [self objectAtIndex:index];
+        if ([value isKindOfClass:[NSString class]]) {
+            NSString *timeString = (NSString *)value;
+            return [timeString timestampToStandardtime];
+        }
+        if ([value isKindOfClass:[NSNumber class]]) {
+            NSString *timeString = [(NSNumber *)value stringValue];
+            return [timeString timestampToStandardtime];
+        }
+    }
+    return @"0000-00-00 00:00:00";
+}
+
+- (NSArray *)datesAtIndex:(NSUInteger)index {
+    if ([self count] > index) {
+        id value = [self objectAtIndex:index];
+        if ([value isKindOfClass:[NSString class]]) {
+            NSString *timeString = (NSString *)value;
+            return [timeString timestampToStandardtimes];
+        }
+        if ([value isKindOfClass:[NSNumber class]]) {
+            NSString *timeString = [(NSNumber *)value stringValue];
+            return [timeString timestampToStandardtimes];
+        }
+    }
+    return @[@"0000-00-00", @"00:00:00"];
 }
 @end

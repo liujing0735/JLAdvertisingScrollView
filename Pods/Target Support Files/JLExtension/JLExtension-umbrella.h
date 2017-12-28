@@ -11,13 +11,18 @@
 #endif
 
 #import "CBPeripheral+Extension.h"
+#import "JLDeviceInfo.h"
 #import "JLExtension.h"
 #import "NSArray+Extension.h"
 #import "NSData+Extension.h"
+#import "NSDate+Extension.h"
 #import "NSDictionary+Extension.h"
+#import "NSString+Extension.h"
+#import "NSTimer+Extension.h"
 #import "UIColor+Extension.h"
 #import "UIImage+Extension.h"
 #import "UILabel+Extension.h"
+#import "UITextField+Extension.h"
 #import "UIView+Extension.h"
 
 FOUNDATION_EXPORT double JLExtensionVersionNumber;

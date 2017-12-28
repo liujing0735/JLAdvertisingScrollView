@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9AF33D8CFD03B1F838D0F651A56747C3"
+               BlueprintIdentifier = "1513CEEE2DB94093F4583DF1EAA606A3"
                BuildableName = "Pods_JLAdvertisingScrollView.framework"
                BlueprintName = "Pods-JLAdvertisingScrollView"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9AF33D8CFD03B1F838D0F651A56747C3"
+            BlueprintIdentifier = "1513CEEE2DB94093F4583DF1EAA606A3"
             BuildableName = "Pods_JLAdvertisingScrollView.framework"
             BlueprintName = "Pods-JLAdvertisingScrollView"
             ReferencedContainer = "container:Pods.xcodeproj">

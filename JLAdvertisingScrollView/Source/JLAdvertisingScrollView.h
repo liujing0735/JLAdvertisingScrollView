@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum : NSUInteger {
+    JLTitleAlignmentTop,
+    JLTitleAlignmentBottom,
+} JLTitleAlignment;
+
 @class JLAdvertisingScrollView;
 
 @protocol JLAdvertisingScrollViewDelegate <NSObject>
@@ -26,6 +31,8 @@
 @interface JLAdvertisingScrollView : UIView
 
 @property (strong, nonatomic) id <JLAdvertisingScrollViewDelegate> delegate;
+
+@property (strong, nonatomic) UILabel *titleLabel;
 
 /**
  图像占位符
@@ -48,6 +55,31 @@
 @property (strong, nonatomic) NSArray <NSString *> *imageUrls;
 
 /**
+ 标题内容
+ */
+@property (strong, nonatomic) NSArray <NSString *> *titles;
+
+/**
+ 标题颜色
+ */
+@property (strong, nonatomic) UIColor *titleTextColor;
+
+/**
+ 标题背景颜色
+ */
+@property (strong, nonatomic) UIColor *titleBackgroundColor;
+
+/**
+ 标题显示位置
+ */
+@property (assign, nonatomic) JLTitleAlignment titleAlignment;
+
+/**
+ 标题文字对齐
+ */
+@property (assign, nonatomic) NSTextAlignment textAlignment;
+
+/**
  广告滚动视图是否自动滚动，默认为YES
  */
 @property (assign, nonatomic) BOOL autoLoop;
@@ -61,4 +93,9 @@
  UIPageControl是否显示，默认为YES
  */
 @property (assign, nonatomic) BOOL showPageControl;
+
+/**
+ 标题UILabel是否显示，当标题内容titles不为空时，默认为YES
+ */
+@property (assign, nonatomic) BOOL showTitleLabel;
 @end

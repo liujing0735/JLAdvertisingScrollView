@@ -76,6 +76,18 @@
     //[_pageControl setValue:[UIImage imageNamed:@""] forKeyPath:@"pageImage"];
     //[_pageControl setValue:[UIImage imageNamed:@""] forKeyPath:@"currentPageImage"];
     [self addSubview:_pageControl];
+    
+    _titleTextColor = [UIColor whiteColor];
+    _titleBackgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.5];
+    _titleAlignment = JLTitleAlignmentBottom;
+    _textAlignment = NSTextAlignmentCenter;
+    
+    _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, self.frame.size.height-50, self.frame.size.width, 50)];
+    [_titleLabel setTextColor:_titleTextColor];
+    [_titleLabel setTextAlignment:_textAlignment];
+    [_titleLabel setBackgroundColor:_titleBackgroundColor];
+    [_titleLabel setHidden:YES];
+    [self addSubview:_titleLabel];
 }
 
 - (instancetype)init
@@ -249,7 +261,18 @@
     }
 }
 
+- (void)setTitles:(NSArray<NSString *> *)titles {
+    _titles = titles;
+    if (titles) {
+        [_titleLabel setHidden:NO];
+        [_titleLabel setText:[titles stringAtIndex:[_pageControl currentPage]]];
+    }else {
+        [_titleLabel setHidden:YES];
+    }
+}
+
 - (void)setAutoLoop:(BOOL)autoLoop {
+    _autoLoop = autoLoop;
     if (autoLoop) {
         [_timer setFireDate:[NSDate distantPast]];
     }else {
@@ -266,9 +289,14 @@
 }
 
 - (void)setShowPageControl:(BOOL)showPageControl {
+    _showPageControl = showPageControl;
     [_pageControl setHidden:!_showPageControl];
 }
 
+- (void)setShowTitleLabel:(BOOL)showTitleLabel {
+    _showTitleLabel = showTitleLabel;
+    [_titleLabel setHidden:!_showTitleLabel];
+}
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     NSUInteger page = _scrollView.contentOffset.x/self.frame.size.width;
@@ -276,14 +304,23 @@
     if (page == 0) {
         [_scrollView setContentOffset:CGPointMake(self.frame.size.width*(count-2), 0) animated:NO];
         [_pageControl setCurrentPage:count-2];
+        if (_titles) {
+            [_titleLabel setText:[_titles stringAtIndex:[_pageControl currentPage]]];
+        }
         return;
     }
     if (page == count-1) {
         [_scrollView setContentOffset:CGPointMake(self.frame.size.width, 0) animated:NO];
         [_pageControl setCurrentPage:0];
+        if (_titles) {
+            [_titleLabel setText:[_titles stringAtIndex:[_pageControl currentPage]]];
+        }
         return;
     }
     [_pageControl setCurrentPage:page-1];
+    if (_titles) {
+        [_titleLabel setText:[_titles stringAtIndex:[_pageControl currentPage]]];
+    }
 }
 
 /*
