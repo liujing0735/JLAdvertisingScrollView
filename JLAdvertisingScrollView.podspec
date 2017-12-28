@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JLAdvertisingScrollView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "轻量级的广告轮播滚动视图"
 
   # This description is used to generate tags and improve search results.
