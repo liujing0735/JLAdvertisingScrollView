@@ -44,7 +44,7 @@
                 double delayInSeconds = 1.0;
                 dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
                 dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-                    [_scrollView setContentOffset:CGPointMake(self.frame.size.width, 0) animated:NO];
+                    [self.scrollView setContentOffset:CGPointMake(self.frame.size.width, 0) animated:NO];
                 });
             }else {
                 [_scrollView scrollRectToVisible:CGRectMake(self.frame.size.width*(page+2), 0, self.frame.size.width, self.frame.size.height) animated:YES];

@@ -24,10 +24,12 @@
     //[advertising setImageNames:@[@"便利店",@"服务",@"教育",@"美食"]];
     //[advertising setImages:@[[UIImage imageNamed:@"便利店"],[UIImage imageNamed:@"服务"],[UIImage imageNamed:@"教育"],[UIImage imageNamed:@"美食"]]];
     [advertising setImageUrls:@[
-                                @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489748993156&di=a05dd001db70790ff1d6d8376cf8a5d6&imgtype=0&src=http%3A%2F%2Fimg5.hao123.com%2Fdata%2F1_08df73b69519276be6e4d5e0c442ae9e_510",
-                                @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489748993155&di=fba9f631aebbe0eee97928191814f6ab&imgtype=0&src=http%3A%2F%2Fimg6.web07.cn%2FUPics%2FBizhi%2F2016%2F0913%2F121474130955191.jpg",
-                                @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489748993155&di=eb747546ee08dfd0b995f5c2f8642864&imgtype=0&src=http%3A%2F%2Fimg.tuku.cn%2Ffile_big%2F201502%2F0e93d8ab02314174a933b5f00438d357.jpg",
-                                @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489748993154&di=03aa60ead6f966cad7e0c78ecb3f449e&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F17%2F14%2F25%2F43Y58PICfJB_1024.jpg"]];
+                                @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568802364826&di=81eeba983e78be1b8e27d19ce06d227c&imgtype=0&src=http%3A%2F%2Fb.zol-img.com.cn%2Fsoft%2F6%2F571%2FcepyVKtIjudo6.jpg",
+                                
+                                    @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568802396164&di=87eeea1545944a3feb989edc59a697d1&imgtype=0&src=http%3A%2F%2Fimg.sccnn.com%2Fbimg%2F337%2F23662.jpg",
+                                
+                                @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568802388370&di=770b6d595ebadc2a45b2aae29c5ccdc2&imgtype=0&src=http%3A%2F%2Fnews.mydrivers.com%2FImg%2F20110307%2F02425314.jpg",
+                                @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568802392695&di=b7e82b55844a3ebd42ab31154d282efb&imgtype=0&src=http%3A%2F%2Fimg.sccnn.com%2Fbimg%2F337%2F28719.jpg"]];
     [advertising setTitles:@[@"测试标题一",
                              @"测试标题二",
                              @"测试标题三",

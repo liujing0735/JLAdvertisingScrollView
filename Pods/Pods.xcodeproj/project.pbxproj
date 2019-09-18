@@ -135,7 +135,7 @@
 		0ACC04FBF5E4BB87DB8D6EC2507D1480 /* UIImage+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extension.h"; path = "JLExtension/Source/UIImage+Extension.h"; sourceTree = "<group>"; };
 		0AF6873D519EC2D27EEB07E583B5A311 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		0DAE5764DB85E5584CCC339BF568123E /* NSString+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extension.h"; path = "JLExtension/Source/NSString+Extension.h"; sourceTree = "<group>"; };
-		115972F1F390666764A4D58892CCBBAC /* JLExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLExtension.framework; path = JLExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		115972F1F390666764A4D58892CCBBAC /* JLExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11711B3DDBBA674D0421B1F548793E8A /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		1859E89B83F1254476BF1869292DACC9 /* Pods-JLAdvertisingScrollView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLAdvertisingScrollView-frameworks.sh"; sourceTree = "<group>"; };
 		1B5E52694F342CC051C76EADC2F197D2 /* NSData+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Extension.h"; path = "JLExtension/Source/NSData+Extension.h"; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		235741EDA5F70511624CD1C86AC742D4 /* Pods-JLAdvertisingScrollView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLAdvertisingScrollView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		243A1861401E6D242030A3270111CFD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25E2EBD363210A64D67977F4BFC8D94B /* UIImage+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extension.m"; path = "JLExtension/Source/UIImage+Extension.m"; sourceTree = "<group>"; };
-		277CE0759B9640180A11B07841533E5B /* JLExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JLExtension.modulemap; sourceTree = "<group>"; };
+		277CE0759B9640180A11B07841533E5B /* JLExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLExtension.modulemap; sourceTree = "<group>"; };
 		2C75F3100D604651C2F2170176E76C73 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		3001E42C38E53B24A4BE6B5A78B03738 /* CBPeripheral+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBPeripheral+Extension.h"; path = "JLExtension/Source/CBPeripheral+Extension.h"; sourceTree = "<group>"; };
 		31419C2A5E92F65C32CABEF9B17F77E0 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		3CEB77B39C63CF86E0D913CA219452EA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		3DADB1CAAB03365F4BBBCCE680C332FC /* UIColor+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extension.h"; path = "JLExtension/Source/UIColor+Extension.h"; sourceTree = "<group>"; };
 		3EC50CA634F812FAD186F48D90B35A79 /* NSArray+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Extension.h"; path = "JLExtension/Source/NSArray+Extension.h"; sourceTree = "<group>"; };
-		424EA66FA8102974CD23E89969F4AB8D /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		424EA66FA8102974CD23E89969F4AB8D /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		4311A1705AFE278F3321255105B41A0E /* Pods-JLAdvertisingScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLAdvertisingScrollView-umbrella.h"; sourceTree = "<group>"; };
 		43DCE7A3B8E5FEA7F74C38BD94CC0637 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Extension.h"; path = "JLExtension/Source/NSDictionary+Extension.h"; sourceTree = "<group>"; };
 		49B658142E578149CFF6FB6D1EEE7C08 /* NSDate+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Extension.m"; path = "JLExtension/Source/NSDate+Extension.m"; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 		60120DB54BF7B1A970EBBF58F3823436 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		6AA3860174A4670AB77CB25438878E9B /* NSData+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Extension.m"; path = "JLExtension/Source/NSData+Extension.m"; sourceTree = "<group>"; };
 		6C3243AC9BE9FF967CA72E0B81C9E6FE /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		711BF620810D6C0973AF5C9B7D4C945F /* Pods_JLAdvertisingScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLAdvertisingScrollView.framework; path = "Pods-JLAdvertisingScrollView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		711BF620810D6C0973AF5C9B7D4C945F /* Pods_JLAdvertisingScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLAdvertisingScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7318654E44FCF3F01AD55302A7053E26 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		73BE2120E2F7AAE7A3E2904D0B81C25B /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "JLExtension/Source/UIView+Extension.m"; sourceTree = "<group>"; };
 		77CA6DDA5F523A34AF9EFB969EB61545 /* NSTimer+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Extension.h"; path = "JLExtension/Source/NSTimer+Extension.h"; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 		86D26A4E0337BD04236B802CF194DB70 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		877D1DC9C364C4E98BA0775820C31E4B /* Pods-JLAdvertisingScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLAdvertisingScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 		934BA1557DBDECD678FDDF5E04FBDF32 /* Pods-JLAdvertisingScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLAdvertisingScrollView.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B676556C0F7570955DAEA9B7DFC9E4 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		9488A8E99A8E9C124C8FF2215DB7869A /* UITextField+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Extension.m"; path = "JLExtension/Source/UITextField+Extension.m"; sourceTree = "<group>"; };
 		9A4B72D3CC79033C767F7A118A252613 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
@@ -212,12 +212,12 @@
 		C597016FA445F314D987BF8FE01B2A07 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		C84620983B4F2E684DF03848193837A1 /* NSArray+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Extension.m"; path = "JLExtension/Source/NSArray+Extension.m"; sourceTree = "<group>"; };
 		C8C5B2CE7AFC2B71CA5B8CBB7D7B65FE /* JLExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLExtension-prefix.pch"; sourceTree = "<group>"; };
-		CA885DB118A75CA22AF4771EECC63B81 /* Pods-JLAdvertisingScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JLAdvertisingScrollView.modulemap"; sourceTree = "<group>"; };
-		CEF9E9BC7A3AB5F2A138BE61C9D477E5 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		CA885DB118A75CA22AF4771EECC63B81 /* Pods-JLAdvertisingScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLAdvertisingScrollView.modulemap"; sourceTree = "<group>"; };
+		CEF9E9BC7A3AB5F2A138BE61C9D477E5 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		D189BDB59F9AB9939E7092EDD2C59817 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D305A72D2455E3A370D6D8D5CF5E42A1 /* NSTimer+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Extension.m"; path = "JLExtension/Source/NSTimer+Extension.m"; sourceTree = "<group>"; };
 		D45731D9F1C2B6F767D596D213CCBF43 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		D8BE1962828BFAA908CA1C73CBA9B13E /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BE1962828BFAA908CA1C73CBA9B13E /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8D6E4AD9C2B35F68F517A07C44B459 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		DE9BAF9F3219C24B3B7149E2CEDC6680 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		DEB0E92A4062F474C86FAEA1A01C2994 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -226,7 +226,7 @@
 		E45B1A58B3015120C139472AA8909CBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		E4EDA09DBBF9DAD4B41254264D0DB8C7 /* NSString+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extension.m"; path = "JLExtension/Source/NSString+Extension.m"; sourceTree = "<group>"; };
 		E810C97C356680DC4C1936166098E1E2 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		EC6160AAE772BEC3E6A9FF2ABC0A4081 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6160AAE772BEC3E6A9FF2ABC0A4081 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D968C9E798E798463048A1C15682CA /* JLDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLDeviceInfo.h; path = JLExtension/Source/JLDeviceInfo.h; sourceTree = "<group>"; };
 		F2AD2BB364EBE9D2CF2DB0196CB3B70B /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		F51F62FEDAD9EF136B05650D6363623E /* CBPeripheral+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CBPeripheral+Extension.m"; path = "JLExtension/Source/CBPeripheral+Extension.m"; sourceTree = "<group>"; };
@@ -311,7 +311,6 @@
 				73BE2120E2F7AAE7A3E2904D0B81C25B /* UIView+Extension.m */,
 				51B3D5E61C6B6216DFE71F1210FEDD5A /* Support Files */,
 			);
-			name = JLExtension;
 			path = JLExtension;
 			sourceTree = "<group>";
 		};
@@ -460,7 +459,6 @@
 				DE4A8FB18B77AF85AAC2810BC68F7C87 /* Support Files */,
 				3861B34E1A750017F12E7EC6ACD0DDD4 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -527,7 +525,6 @@
 				E810C97C356680DC4C1936166098E1E2 /* MBProgressHUD.m */,
 				38ED5D8222196CB45355912DA7C86715 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -682,14 +679,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = A4A345A1DA9E710F3D58BED21708939D /* Products */;
@@ -1018,6 +1016,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1028,6 +1027,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1035,6 +1035,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1103,6 +1104,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1113,6 +1115,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1120,6 +1123,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
